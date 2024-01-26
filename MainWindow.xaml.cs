@@ -29,5 +29,10 @@ namespace CreditCardRewardsOptimizer
         {
 
         }
+
+        private void SaveNewCreditCard_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

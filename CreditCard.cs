@@ -18,15 +18,15 @@ namespace CreditCardRewardsOptimizer
 
         int? restaurantRewardsRate { get; set; }
 
-        int? takeoutRewardsRate { get; set; }
+        int? deliveryRewardsRate { get; set; }
 
         int? streamingServicesRewardsRate { get; set; }
 
         int? targetRewardsRate { get; set; }
 
-        int? drugstoreRewardsRate { get; set; }
+        int? convenienceStoreRewardsRate { get; set; }
 
-        int? lyftRewardsRate { get; set; }
+        int? uberRewardsRate { get; set; }
 
         int? airTravelRewardsRate { get; set; }
 
@@ -44,11 +44,11 @@ namespace CreditCardRewardsOptimizer
             string? welcomeBonus, 
             int? groceryRewardsRate,
             int? restaurantRewardsRate,
-            int? takeoutRewardsRate,
+            int? deliveryRewardsRate,
             int? streamingServicesRewardsRate,
             int? targetRewardsRate,
-            int? drugstoreRewardsRate,
-            int? lyftRewardsRate,
+            int? convenienceStoreRewardsRate,
+            int? uberRewardsRate,
             int? airTravelRewardsRate,
             int? hotelRewardsRate,
             int? gasStationRewardsRate,
@@ -60,11 +60,11 @@ namespace CreditCardRewardsOptimizer
             this.welcomeBonus = welcomeBonus;
             this.groceryRewardsRate = groceryRewardsRate;
             this.restaurantRewardsRate = restaurantRewardsRate;
-            this.takeoutRewardsRate = takeoutRewardsRate;
+            this.deliveryRewardsRate = deliveryRewardsRate;
             this.streamingServicesRewardsRate = streamingServicesRewardsRate;
             this.targetRewardsRate = targetRewardsRate;
-            this.drugstoreRewardsRate = drugstoreRewardsRate;
-            this.lyftRewardsRate = lyftRewardsRate;
+            this.convenienceStoreRewardsRate = convenienceStoreRewardsRate;
+            this.uberRewardsRate = uberRewardsRate;
             this.airTravelRewardsRate = airTravelRewardsRate;
             this.hotelRewardsRate = hotelRewardsRate;
             this.gasStationRewardsRate = gasStationRewardsRate;
